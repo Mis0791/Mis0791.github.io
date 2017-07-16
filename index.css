@@ -1,0 +1,85 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+      /*margin: 0 auto;*/
+      text-align: center;
+    }
+    body {
+       height: 100%;
+    }
+
+    header {
+        background-color:#C793FF;
+        padding: 35px;
+        margin: 35px 5vw;
+        font-size: 25px;
+        display: block;
+        width: auto;
+        height: 150px;
+        font: small-caps bold 24px/1 sans-serif;
+        vertical-align: left;
+    }
+    header h2{
+        font-size: 25px;
+        font: small-caps 24px/1 sans-serif;
+    }
+    nav {
+        line-height: 30px;
+        /*background-color:#D1BBFF;*/
+        width: auto;
+        display: block;
+        vertical-align: left;
+        float: left;
+        padding-left: auto;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        justify-content: center;
+        margin-left: 5vw;
+        text-align: left;
+        font: small-caps 24px/1 sans-serif;
+    }
+    nav ul {
+        list-style-type: none;
+        vertical-align: left;
+        text-align: left;
+    }
+    article {
+        display: inline-block;
+        font: small-caps 24px/1 sans-serif;
+    }
+    a {
+        color: ;
+    }
+    section {
+        width: 600px;
+        display: inline-block;
+    }
+    /*aside {
+      width: 125px;
+      display: inline-block;
+      vertical-align: top;
+      background-color:;
+      font-size: ;
+    }*/
+    ul {
+        list-style-type: none;
+    }
+    /*footer {
+        width: 790px;
+        background-color:;
+        text-align:;
+        padding:5px;
+        display: block;
+    }*/
+/*#pets {
+    width: 400px;
+    margin: left;
+    display: inline-block;
+}
+#animals {
+  text-align: center;
+}*/

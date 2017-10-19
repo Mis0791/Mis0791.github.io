@@ -1,0 +1,156 @@
+**  {
+  margin: 0px;
+  padding: 0px;
+}
+#padding  {
+  width: 980px;
+  background: radial-gradient(#6f5964, #1d0d11, #49353d);
+  margin: 5px;
+  margin-left: 150px;
+  box-shadow: 7px 7px 5px grey;
+}
+#picture  {
+  height: 275px;
+  width: 418px;
+  display: inline-block;
+  padding: 5px;
+  background-color: #c0c0c0;
+  margin: 35px;
+  margin-top: 20px;
+}
+#biography  {
+  width: auto;
+  height: auto;
+  margin: 0px;
+}
+#about  {
+  background: linear-gradient(to right, white, #ded1dd);
+  width: 418px;
+  height: 283px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+}
+#text {
+  height: 135px;
+  display: inline-block;
+  font-family: "Arial", "Helvetica", sans-serif;
+  padding: 2  px;
+  font-size: 14px;
+  margin-left: 7px;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+#text2  {
+  display: inline-block;
+  height: 135px;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 14px;
+  padding: 2px;
+  margin-left: 7px;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+#text3  {
+  display: inline-block;
+  height: 135px;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 14px;
+  padding: 2px;
+  margin-left: 7px;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+#text4  {
+  display: inline-block;
+  height: 135px;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 14px;
+  padding: 2px;
+  margin-left: 7px;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+#title  {
+  width: auto;
+  height: 50px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  background-color: #f7f7f7;
+}
+#maincontent {
+  width: auto;
+  height: 600px;
+}
+#footer{
+  font-family: "Arial", "Helvetica", sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  padding: 0px;
+  background-color: #f9f9f9;
+}
+.panels {
+  width: 281px;
+  height: 570px;
+  background: linear-gradient(to right, white, #ded1dd);
+  display: inline-block;
+  margin: 15px 0px 10px 31px;
+  float: none;
+  vertical-align: top;
+}
+.panelsimgtop {
+  height: 154px;
+  width: auto;
+  padding: 0px;
+}
+.panelsimgbottom  {
+  height: 36px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 3px;
+}
+.boxheader  {
+  height: 40px;
+  background: linear-gradient(silver,grey);
+  color: white;
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+.boxheader h3 {
+  margin-top: 7px;
+  margin-left: 7px;
+  padding: 0px;
+}
+.submit {
+  text-align: center;
+}
+input  {
+  background-color: #407d61;
+  border-radius: 10px;
+  padding: 3px;
+  box-shadow: 2px 2px 1px #888888;
+  outline: none;
+  color: white;
+}
+a {
+  color: black;
+  margin-left: 7px;
+}
+p{
+  padding: 7px;
+}
+div {
+  display: block;
+}
+h1 {
+  display: inline-block;
+  text-align: left;
+  margin-right: 450px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+h3 {
+  display: inline-block;
+  margin: 5px;
+  font-family: "Arial", "Helvetica", sans-serif;
+}

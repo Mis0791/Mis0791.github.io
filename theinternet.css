@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mainwrap {
+    box-shadow: 7px 7px 5px grey;
+    width: 970px;
+    padding: 5px 10px 5px 5px;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#header {
+    display: inline-block;
+    width: 970px;
+    height: 131px;
+    background-color: #ffffff;
+}
+#header p   {
+    display: inline-block;
+    padding: 33px 0px 0px 5px;
+    font-size: 45px;
+    vertical-align: top;
+    height: 45px;
+}
+#globe  {
+    width: 85px;
+    height: 85px;
+    position: relative;
+    top: 14px;
+}
+#header2    {
+    padding-top: 7px;
+    padding-left: 10px;
+    font-size: 25px;
+    width: 970px;
+    height: 40px;
+    color: white;
+    background: linear-gradient(to top, #27659f,#2d6ba1,#4e80ab);
+}
+.maincontent    {
+    display: inline-block;
+    width: 970px;
+    height: 800px;
+}
+#verticalbox{
+    display: inline-block;
+    width: 245px;
+    height: 525px;
+    margin: 3px 5px 5px 5px;
+    position: relative;
+    bottom: 185px;
+}
+#box1   {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+#internet {
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#internet span {
+    color: #db3232;
+}
+#internet p {
+    display: inline-block;
+    padding-bottom: 5px;
+}
+#watch {
+    display: inline-block;
+    padding: 7px 2px 7px 2px;
+    margin: 25px 5px 5px 0px;
+    text-align: center;
+    border-radius: 3px;
+    width: 200px;
+    height: 35px;
+    background: linear-gradient(to top, #2b6aa3,#427fb1,#5a92bf);
+    box-shadow: 3px 3px 5px grey;
+}
+#more {
+    display: inline-block;
+    padding: 7px 2px 7px 2px;
+    margin: 5px 5px 5px 0px;
+    text-align: center;
+    border-radius: 3px;
+    width: 200px;
+    height: 35px;
+    box-shadow: 3px 3px 5px grey;
+    background: linear-gradient(to top,#ef7200,#ef8300,#eba547);
+}
+span    {
+    color: #3070a5;
+}
+hr  {
+    border-top: 1px solid #bbbbbb;
+    margin-top: 5px;
+    display: block;
+    width: 210px;
+}
+#box2 {
+    display: inline-block;
+    width: 200px;
+    height: 265px;
+    margin-top: 20px;
+    background-image: url("Photos/ad_background.png")
+}
+#box2 h2 {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+#ninja {
+    width: 70px;
+    height: 100px;
+    margin: 5px 45px 5px 15px;
+    position: relative;
+    top: 5px;
+    left: 50px;
+}
+#learnmore {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    border-radius: 3px;
+    width: 130px;
+    height: 25px;
+    color: white;
+    background: linear-gradient(to top, #42c1de,#44c8df,#66cedf);
+    box-shadow: 3px 3px 5px grey;
+    position: relative;
+    left: 35px;
+    margin-top: 5px;
+}
+#horizontalbox {
+    display: inline-block;
+    width: 700px;
+    height: 675px;
+    margin: 5px 5px 5px 5px;
+    position: relative;
+    left: 13px;
+}
+#homebox {
+    width: 700px;
+    height: 70px;
+    border-bottom: 2px solid #bbbbbb;
+}
+#dns {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+}
+#dns p {
+    display: inline-block;
+    padding: 15px 0px 0px 0px;
+    font-size: 17px;
+    vertical-align: top;
+    height: 15px;
+}
+#home {
+    display: inline-block;
+    width: 20px;
+    padding: 10px;
+}
+#number {
+    display: inline-block;
+    margin-left: 198px;
+    width: 250px;
+    height: 70px;
+    vertical-align: top;
+    position: relative;
+    left: 200px;
+}
+#hours {
+    margin-left: 50px;
+    margin-bottom: 1px;
+    font-size: 10px;
+}
+#phone {
+    display: inline-block;
+    width: 35px;
+    padding: 3px;
+    position: relative;
+}
+#number h2 {
+    display: inline-block;
+    padding: 0px 0px 0px 5px;
+    font-size: 25px;    
+    vertical-align: top;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+#number span {
+    color: #00bfdf;
+}
+#international {
+    margin-left: 50px;
+    margin-bottom: 1px;
+    font-size: 10px;
+}
+#clients {
+    width: 700px;
+    height: 175px;
+}
+.headers {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#clientserver {
+    display: inline-block;
+    width: 250px;
+    padding: 3px;
+    position: relative;
+    left: 220px;
+}
+#happens {
+    width: 700px;
+    height: 200px;
+}
+#big3 {
+    width: 690px;
+    height: 200px;
+    border: 3px solid #0085e0;
+}
+#html {
+    display: inline-block;
+    width: 90px;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+#text {
+    display: inline-block;
+    padding: 5px 0px 0px 5px;
+    vertical-align: top;
+}
+#text ul {
+    list-style-type: none;
+}
+.text2 {
+    padding-top: 5px;
+}
+
+li {
+    list-style-position: inside;
+    padding-left: 15px;
+    word-wrap: break-word;
+}
+
+
+
+
+
+

@@ -13,7 +13,7 @@
 #header {
     display: inline-block;
     width: 970px;
-    height: 131px;
+    height: 138px;
     background-color: #ffffff;
 }
 #header p   {
@@ -27,11 +27,11 @@
     width: 85px;
     height: 85px;
     position: relative;
-    top: 14px;
+    top: 17px;
 }
 #header2    {
     padding-top: 7px;
-    padding-left: 10px;
+    padding-left: 15px;
     font-size: 25px;
     width: 970px;
     height: 40px;
@@ -41,7 +41,8 @@
 .maincontent    {
     display: inline-block;
     width: 970px;
-    height: 800px;
+    height: 700px;
+    background: linear-gradient(to top, #ffffff, #fff, #fcfcfc #efefef, #e4e4e4);
 }
 #verticalbox{
     display: inline-block;
@@ -49,7 +50,7 @@
     height: 525px;
     margin: 3px 5px 5px 5px;
     position: relative;
-    bottom: 185px;
+    bottom: 160px;
 }
 #box1   {
     display: inline-block;
@@ -145,8 +146,8 @@ hr  {
 }
 #homebox {
     width: 700px;
-    height: 70px;
-    border-bottom: 2px solid #bbbbbb;
+    height: 65px;
+    border-bottom: 1px solid #bbbbbb;
 }
 #dns {
     display: inline-block;
@@ -168,11 +169,12 @@ hr  {
 #number {
     display: inline-block;
     margin-left: 198px;
-    width: 250px;
+    width: 200px;
     height: 70px;
     vertical-align: top;
     position: relative;
     left: 200px;
+    bottom: 7px;
 }
 #hours {
     margin-left: 50px;
@@ -199,8 +201,9 @@ hr  {
 }
 #international {
     margin-left: 50px;
-    margin-bottom: 1px;
     font-size: 10px;
+    vertical-align: top;
+    display: inline-block;
 }
 #clients {
     width: 700px;
@@ -224,12 +227,12 @@ hr  {
 }
 #big3 {
     width: 690px;
-    height: 200px;
+    height: 150px;
     border: 3px solid #0085e0;
 }
 #html {
     display: inline-block;
-    width: 90px;
+    width: 100px;
     padding: 5px;
     position: relative;
     top: 5px;
@@ -239,6 +242,7 @@ hr  {
     display: inline-block;
     padding: 5px 0px 0px 5px;
     vertical-align: top;
+    width: 475px;
 }
 #text ul {
     list-style-type: none;
@@ -252,9 +256,3 @@ li {
     padding-left: 15px;
     word-wrap: break-word;
 }
-
-
-
-
-
-

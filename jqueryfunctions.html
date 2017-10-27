@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JQuery Functions</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('#disappear').click(function(){
+          $('#hstext').hide()})
+        $('#appear').click(function(){
+          $('#hstext').show()})
+        $("#toggle").click(function(){
+          $('#poop').toggle("slow", function(){})})
+        $('#up').hover(function(){
+          $('#stext').slideUp()})
+        $('#down').hover(function(){
+          $('#stext').slideDown()})
+        $('#slidetoggle').click(function(){
+          $('#stext').slideToggle()})
+        $('#in').click(function(){
+          $('#ftext').fadeIn()})
+        $('#out').click(function(){
+          $('#ftext').fadeOut()})
+        $('#fairy').hover(function(){
+          $('#ctext').addClass("newness")})
+        $('#before').click(function(){
+          $('#batext').before("<h3>Once Upon A Time...</h3>")})
+        $('#after').click(function(){
+          $('#batext').after("<br><p>She loved it.</p><h4> She lived happily ever after.</h4>")})
+        $('#append').click(function(){
+          $('p').append("<strong>Invasion!</strong>")})
+        $('#htmlcontainer').hover(function (){
+          $('#surprise').html('<h2 style="color: red;">SURPRISE!</h2>')})
+        $('#textbutton').click(function (){
+          $('#changes').text("ch-ch-changes!")})
+        $('#yes').click(function(){
+          $('#coffeecup').attr("width", "75px")})
+        $('#no').click(function(){
+          $('#coffeecup').attr("width", "150px")})
+      })
+    </script>
+    <link rel="stylesheet" href="jqf.css">
+  </head>
+  <body>
+    </div>
+    <div class="container">
+      <h1>.hide/.show</h1>
+      <div class="content">
+        <button id="disappear" type="button" name="button">Abra Kadabra</button>
+        <button id="appear" type="button" name="button">Alacazam</button>
+        <img id="wizard" src="http://www.freepngimg.com/download/wizard/4-2-wizard-png-hd.png" alt="wizard">
+        <p id="hstext">I can make this text disappear!</p>
+      </div>
+    </div>
+    <div class="container">
+      <h1>.toggle</h1>
+      <div class="content">
+        <button id="toggle" type="button" name="button">toggle</button>
+        <img id="poop" src="https://ih0.redbubble.net/image.185857483.9127/flat,800x800,075,f.u3.jpg" alt="poop emoji">
+        <p id="ttext">Make up your mind.</p>
+      </div>
+    </div>
+    <div class="container">
+      <h1>.slide</h1>
+      <div class="content">
+        <button id="up"type="button" name="button">up</button>
+        <button id="down"type="button" name="button">down</button>
+        <button id="slidetoggle" type="button" name="button">toggle</button>
+        <p id="stext">Slide to the left, slide to the right, two steps this time...</p>
+      </div>
+    </div>
+    <div class="container">
+      <h1>.fade</h1>
+      <div class="content">
+        <button id="in" type="button" name="button">in</button>
+        <button id="out" type="button" name="button">out</button>
+        <p id="ftext">I got nothing clever.</p>
+      </div>
+    </div>
+    <div class="container">
+      <h1>.addclass</h1>
+      <div class="content">
+        <img id="fairy" src="https://s-media-cache-ak0.pinimg.com/originals/9c/48/ec/9c48ec96846f13f2bf0ef496cca7f188.jpg" alt="fairy">
+        <p id="ctext">This doesn't seem right...</p>
+      </div>
+    </div>
+    <div class="container">
+      <h1>.before/.after</h1>
+      <div class="content">
+        <button id="before" type="button" name="button">We need a beginning...</button>
+        <button id="after" type="button" name="button">...And then?</button>
+        <p id="batext">There was a princess who lived alone in a castle.</p>
+      </div>
+    </div>
+    <div class="container">
+      <h1>.append</h1>
+      <div class="content">
+        <button id="append" type="button" name="button">append</button>
+        <p id="ntext">Something new!</p>
+      </div>
+    </div>
+    <div id="htmlcontainer" class="container">
+      <h1>.html</h1>
+      <div class="content">
+        <p id="surprise">There's nothing here....</p>
+      </div>
+    </div>
+    <div class="container">
+      <h1>.text</h1>
+      <div class="content">
+        <button id="textbutton">Modify</button>
+        <p id="changes">Hmm, lets change this up</p>
+      </div>
+    </div>
+    <div class="container">
+      <h1>.attr/.val</h1>
+      <div class="content">
+        <img id="coffeecup" width="75px" src="https://png.pngtree.com/element_pic/16/10/28/0f4ba4289310a26b6cc0baa6975e71c4.jpg" alt="coffee cup">
+        <form id=coffee>
+          <p>Is this enough coffee?</p><br>
+          <input id="yes" type="radio" name="coffee" value="yes"> Yes<br>
+          <input id="no" type="radio" name="coffee" value="no"> No<br>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

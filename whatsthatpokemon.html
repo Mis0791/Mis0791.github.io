@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>What's That Pokemon?</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            function makePokemon(){
+                var htmlStr = "";
+                for(var i = 1; i <= 151; i++) {
+                    htmlStr += '<img value="' + [i] + '" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/' + [i] + '.png">'
+                }
+                return(htmlStr);
+            }
+            $(".pictures").append(makePokemon())
+            $("img").click(function(){
+                console.log($(this).val());
+                $.get("http://pokeapi.co/api/v2/pokemon/" + $(this).val() + "/", function(res){
+                $(".info").html('<div class="info"><h1>res[name]</h1><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/' + [i] + '.png"><h3>Types:</h3><ul><li>res[type]</li></ul><h3>Height</h3><p>res[height]</p><h3>Weight</h3><p>res[weight]</p></div>')
+                })   
+            })
+        })
+    </script>
+    <style>
+        .info {
+            border: 10px 10px 15px 10px solid red;
+            width: 250px;
+            position: fixed;
+        }
+        h1 {
+            text-align: center;
+        }
+        li {
+            margin-left: 10px;
+            list-style-position: inside;
+        }
+        .pictures {
+            width: 700px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pictures">
+
+    </div>   
+    <div class="info">
+
+    </div>
+</body>
+</html>

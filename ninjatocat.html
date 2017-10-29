@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ninja to Cat</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('img').click(function() {
+                $(this).attr('temp', $(this).attr('src'));
+                $(this).attr('src', $(this).attr('alt-src'));
+                $(this).attr('alt-src', $(this).attr('temp'));
+            })
+        })
+    
+    </script>
+</head>
+<body>
+    <h1>Ninja To Cat</h1>
+        <img src="Photos/ninja0.png" alt-src="Photos/cat0.png" temp=""></br>
+        <img src="Photos/ninja1.png" alt-src="Photos/cat1.png" temp=""></br>
+        <img src="Photos/ninja2.png" alt-src="Photos/cat2.png" temp=""></br>
+        <img src="Photos/ninja3.png" alt-src="Photos/cat3.png" temp=""></br>
+        <img src="Photos/ninja4.png" alt-src="Photos/cat4.png" temp="">
+</body>
+</html>
